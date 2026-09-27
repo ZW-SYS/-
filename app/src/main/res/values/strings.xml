@@ -1,188 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ShizuPosed</string>
+    <string name="app_name">烛龙</string>
 
     <!-- Navigation -->
-    <string name="nav_home">Home</string>
-    <string name="nav_modules">Modules</string>
-    <string name="nav_repo">Repo</string>
-    <string name="nav_logs">Logs</string>
-    <string name="nav_settings">Settings</string>
+    <string name="nav_home">主页</string>
+    <string name="nav_modules">模块</string>
+    <string name="nav_repo">仓库</string>
+    <string name="nav_logs">日志</string>
+    <string name="nav_settings">设置</string>
 
     <!-- Home -->
-    <string name="status">Status</string>
-    <string name="scoped_apps">Scoped Apps</string>
-    <string name="active_modules">Active Modules</string>
-    <string name="framework_version_label">Framework API</string>
-    <string name="framework_version_value">93 (LSPosed-compatible)</string>
-    <string name="tracked_processes">Tracked Processes</string>
-    <string name="total_apps">Total Apps</string>
-    <string name="refresh">Refresh</string>
-    <string name="start_service">Start Service</string>
-    <string name="service_running">Running</string>
-    <string name="service_stopped">Stopped</string>
-    <string name="status_no_shizuku">No Shizuku Permission</string>
-    <string name="status_running">Running [OK]</string>
-    <string name="status_stopped">Stopped [!]</string>
-    <string name="refreshed">Refreshed</string>
-    <string name="service_starting">Service starting...</string>
-    <string name="service_start_failed">Failed to start service</string>
-    <string name="no_hooked_processes">No hooked processes</string>
+    <string name="status">状态</string>
+    <string name="scoped_apps">作用域应用</string>
+    <string name="active_modules">已激活模块</string>
+    <string name="framework_version_label">框架 API</string>
+    <string name="framework_version_value">93 (兼容 LSPosed)</string>
+    <string name="tracked_processes">已跟踪进程</string>
+    <string name="total_apps">应用总数</string>
+    <string name="refresh">刷新</string>
+    <string name="start_service">启动服务</string>
+    <string name="service_running">运行中</string>
+    <string name="service_stopped">已停止</string>
+    <string name="status_no_shizuku">无 Shizuku 权限</string>
+    <string name="status_running">运行中 [正常]</string>
+    <string name="status_stopped">已停止 [!]</string>
+    <string name="refreshed">已刷新</string>
+    <string name="service_starting">服务启动中...</string>
+    <string name="service_start_failed">启动服务失败</string>
+    <string name="no_hooked_processes">无已 Hook 的进程</string>
 
     <!-- Modules -->
-    <string name="modules">Modules</string>
-    <string name="search_modules">Search modules...</string>
-    <string name="add_module">Add Module</string>
-    <string name="add_module_manual">Add Module (manual)</string>
-    <string name="no_modules">No modules installed</string>
-    <string name="module_details">Module Details</string>
-    <string name="uninstall_module">Uninstall Module</string>
-    <string name="confirm_uninstall">Are you sure you want to uninstall this module?</string>
-    <string name="module_icon">Module icon</string>
-    <string name="module_enabled">Module enabled</string>
-    <string name="module_disabled">Module disabled</string>
-    <string name="module_uninstalled">Module uninstalled</string>
-    <string name="module_uninstall_failed">Failed to uninstall module</string>
-    <string name="module_added">Module added successfully</string>
-    <string name="module_add_failed">Failed to add module</string>
-    <string name="modules_load_failed">Failed to load modules</string>
+    <string name="modules">模块</string>
+    <string name="search_modules">搜索模块...</string>
+    <string name="add_module">添加模块</string>
+    <string name="add_module_manual">手动添加模块</string>
+    <string name="no_modules">未安装模块</string>
+    <string name="module_details">模块详情</string>
+    <string name="uninstall_module">卸载模块</string>
+    <string name="confirm_uninstall">确定要卸载此模块吗？</string>
+    <string name="module_icon">模块图标</string>
+    <string name="module_enabled">模块已启用</string>
+    <string name="module_disabled">模块已禁用</string>
+    <string name="module_uninstalled">模块已卸载</string>
+    <string name="module_uninstall_failed">卸载模块失败</string>
+    <string name="module_added">模块添加成功</string>
+    <string name="module_add_failed">添加模块失败</string>
+    <string name="modules_load_failed">加载模块失败</string>
 
     <!-- Repo tab -->
-    <string name="repo_title">Repository</string>
-    <string name="repo_not_implemented_title">Not yet implemented</string>
-    <string name="repo_not_implemented_message">The ShizuPosed module repository is not yet available.&#10;&#10;When it ships, this tab will let you browse, install, and update Xposed modules directly from the manager, similar to the LSPosed Repo tab.&#10;&#10;For now, install modules via the Modules tab or enable the ones you already have on your device.</string>
-    <string name="repo_coming_soon">Coming in a future release</string>
+    <string name="repo_title">仓库</string>
+    <string name="repo_not_implemented_title">尚未实现</string>
+    <string name="repo_not_implemented_message">ShizuPosed 模块仓库尚未启用。&#10;&#10;当它发布后，此标签页将允许您直接在管理器中浏览、安装和更新 Xposed 模块，类似于 LSPosed 的仓库标签页。&#10;&#10;目前，请通过“模块”标签页安装模块，或启用设备上已有的模块。</string>
+    <string name="repo_coming_soon">将在未来版本中推出</string>
 
     <!-- Auto-detect -->
-    <string name="modules_detected_one">1 new module detected</string>
-    <string name="modules_detected_many">%1$d new modules detected</string>
-    <string name="module_scan_failed">Module scan failed</string>
-    <string name="module_no_ui">Module has no UI</string>
-    <string name="module_open_failed">Failed to open module</string>
+    <string name="modules_detected_one">检测到 1 个新模块</string>
+    <string name="modules_detected_many">检测到 %1$d 个新模块</string>
+    <string name="module_scan_failed">模块扫描失败</string>
+    <string name="module_no_ui">模块没有 UI</string>
+    <string name="module_open_failed">打开模块失败</string>
 
     <!-- Module details dialog -->
-    <string name="module_detail_launch_button">Launch App under ShizuPosed...</string>
-    <string name="module_detail_launch_picker_title">Launch under ShizuPosed</string>
-    <string name="module_detail_launch_no_apps">No apps selected for this module - pick some first</string>
-    <string name="module_detail_launch_started">Launching %1$s under ShizuPosed...</string>
-    <string name="module_detail_launch_failed">Failed to launch: %1$s</string>
-    <string name="module_detail_shizuku_unavailable">Shizuku not available or not authorized</string>
-    <string name="module_detail_label_version">Version:</string>
-    <string name="module_detail_label_entry">Entry:</string>
-    <string name="module_detail_label_status">Status:</string>
-    <string name="module_detail_label_description">Description:</string>
-    <string name="module_detail_label_hooked_apps">Hooked Apps:</string>
-    <string name="module_detail_status_enabled">[OK] Enabled</string>
-    <string name="module_detail_status_disabled">[X] Disabled</string>
-    <string name="module_detail_entry_auto">Auto-detect</string>
-    <string name="module_detail_description_missing">No description available</string>
-    <string name="module_detail_hooked_apps_all_suffix"> (All Apps)</string>
+    <string name="module_detail_launch_button">在 ShizuPosed 下启动应用...</string>
+    <string name="module_detail_launch_picker_title">在 ShizuPosed 下启动</string>
+    <string name="module_detail_launch_no_apps">未为此模块选择应用 - 请先选择</string>
+    <string name="module_detail_launch_started">正在 ShizuPosed 下启动 %1$s...</string>
+    <string name="module_detail_launch_failed">启动失败: %1$s</string>
+    <string name="module_detail_shizuku_unavailable">Shizuku 不可用或未授权</string>
+    <string name="module_detail_label_version">版本:</string>
+    <string name="module_detail_label_entry">入口:</string>
+    <string name="module_detail_label_status">状态:</string>
+    <string name="module_detail_label_description">描述:</string>
+    <string name="module_detail_label_hooked_apps">已 Hook 的应用:</string>
+    <string name="module_detail_status_enabled">[正常] 已启用</string>
+    <string name="module_detail_status_disabled">[X] 已禁用</string>
+    <string name="module_detail_entry_auto">自动检测</string>
+    <string name="module_detail_description_missing">无描述</string>
+    <string name="module_detail_hooked_apps_all_suffix"> (所有应用)</string>
 
     <!-- Add Module dialog -->
-    <string name="add_module_title">Add Module</string>
-    <string name="add_module_hint_package">Package name (com.example.module)</string>
-    <string name="add_module_hint_name">Module name</string>
-    <string name="add_module_hint_entry">Entry point (e.g. com.example.MainHook)</string>
-    <string name="add_module_auto_detect">Auto-detect entry point</string>
-    <string name="add_module_browse">Browse APK...</string>
-    <string name="add_module_no_file">No file selected</string>
-    <string name="add_module_file_selected">Selected: %1$s</string>
-    <string name="add_module_package_required">Package name is required</string>
-    <string name="add_module_apk_required">Please select an APK file</string>
-    <string name="add_module_dialog_not_ready">Dialog not ready</string>
-    <string name="add_module_no_picker">No file picker available</string>
-    <string name="add_module_file_error">Failed to process file</string>
-    <string name="add_module_no_file_selected">No file selected</string>
-    <string name="add_module_action">Add</string>
+    <string name="add_module_title">添加模块</string>
+    <string name="add_module_hint_package">包名 (com.example.module)</string>
+    <string name="add_module_hint_name">模块名称</string>
+    <string name="add_module_hint_entry">入口点 (例如 com.example.MainHook)</string>
+    <string name="add_module_auto_detect">自动检测入口点</string>
+    <string name="add_module_browse">浏览 APK...</string>
+    <string name="add_module_no_file">未选择文件</string>
+    <string name="add_module_file_selected">已选择: %1$s</string>
+    <string name="add_module_package_required">必须填写包名</string>
+    <string name="add_module_apk_required">请选择一个 APK 文件</string>
+    <string name="add_module_dialog_not_ready">对话框未准备好</string>
+    <string name="add_module_no_picker">无文件选择器可用</string>
+    <string name="add_module_file_error">处理文件失败</string>
+    <string name="add_module_no_file_selected">未选择文件</string>
+    <string name="add_module_action">添加</string>
 
     <!-- Select Apps dialog -->
-    <string name="select_apps_title">Select Apps for %1$s</string>
-    <string name="select_apps_search_hint">Search apps...</string>
-    <string name="select_apps_select_all">Select All</string>
-    <string name="select_apps_clear_all">Clear All</string>
-    <string name="select_apps_select_system">Select System</string>
-    <string name="select_apps_apply">Apply</string>
-    <string name="select_apps_cancel">Cancel</string>
-    <string name="select_apps_count_one">1 app selected</string>
-    <string name="select_apps_count_many">%1$d apps selected</string>
+    <string name="select_apps_title">为 %1$s 选择应用</string>
+    <string name="select_apps_search_hint">搜索应用...</string>
+    <string name="select_apps_select_all">全选</string>
+    <string name="select_apps_clear_all">清除全部</string>
+    <string name="select_apps_select_system">选择系统应用</string>
+    <string name="select_apps_apply">应用</string>
+    <string name="select_apps_cancel">取消</string>
+    <string name="select_apps_count_one">已选择 1 个应用</string>
+    <string name="select_apps_count_many">已选择 %1$d 个应用</string>
 
     <!-- Logs -->
-    <string name="logs">Logs</string>
-    <string name="search_logs">Search logs...</string>
-    <string name="clear_logs">Clear Logs</string>
-    <string name="export_logs">Export Logs</string>
-    <string name="no_logs">No logs available</string>
-    <string name="confirm_clear_logs">Are you sure you want to clear all logs?</string>
-    <string name="logs_cleared">Logs cleared</string>
-    <string name="logs_export_failed">Failed to export logs</string>
-    <string name="logs_load_failed">Failed to load logs</string>
-    <string name="logs_exported_to">Logs exported to %1$s</string>
-    <string name="no_matching_logs">No matching logs</string>
+    <string name="logs">日志</string>
+    <string name="search_logs">搜索日志...</string>
+    <string name="clear_logs">清除日志</string>
+    <string name="export_logs">导出日志</string>
+    <string name="no_logs">无日志</string>
+    <string name="confirm_clear_logs">确定要清除所有日志吗？</string>
+    <string name="logs_cleared">日志已清除</string>
+    <string name="logs_export_failed">导出日志失败</string>
+    <string name="logs_load_failed">加载日志失败</string>
+    <string name="logs_exported_to">日志已导出至 %1$s</string>
+    <string name="no_matching_logs">没有匹配的日志</string>
 
     <!-- Settings -->
-    <string name="settings">Settings</string>
-    <string name="auto_start">Auto Start</string>
-    <string name="auto_start_desc">Start service on boot</string>
-    <string name="auto_start_enabled">Auto-start enabled</string>
-    <string name="auto_start_disabled">Auto-start disabled</string>
-    <string name="debug_mode">Debug Mode</string>
-    <string name="debug_mode_desc">Enable debug logging</string>
-    <string name="debug_mode_enabled">Debug mode enabled</string>
-    <string name="debug_mode_disabled">Debug mode disabled</string>
-    <string name="log_to_file">Log to File</string>
-    <string name="log_to_file_desc">Save logs to internal storage</string>
-    <string name="log_to_file_enabled">Logging to file enabled</string>
-    <string name="log_to_file_disabled">Logging to file disabled</string>
-    <string name="scan_interval">Scan Interval (ms)</string>
-    <string name="hook_delay">Hook Delay (ms)</string>
-    <string name="restart_service">Restart Service</string>
-    <string name="clear_cache">Clear Cache</string>
-    <string name="export_config">Export Config</string>
+    <string name="settings">设置</string>
+    <string name="auto_start">自动启动</string>
+    <string name="auto_start_desc">开机时启动服务</string>
+    <string name="auto_start_enabled">自动启动已启用</string>
+    <string name="auto_start_disabled">自动启动已禁用</string>
+    <string name="debug_mode">调试模式</string>
+    <string name="debug_mode_desc">启用调试日志</string>
+    <string name="debug_mode_enabled">调试模式已启用</string>
+    <string name="debug_mode_disabled">调试模式已禁用</string>
+    <string name="log_to_file">日志写入文件</string>
+    <string name="log_to_file_desc">将日志保存到内部存储</string>
+    <string name="log_to_file_enabled">日志写入文件已启用</string>
+    <string name="log_to_file_disabled">日志写入文件已禁用</string>
+    <string name="scan_interval">扫描间隔 (毫秒)</string>
+    <string name="hook_delay">Hook 延迟 (毫秒)</string>
+    <string name="restart_service">重启服务</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="export_config">导出配置</string>
     <string name="shizuku_status">Shizuku</string>
-    <string name="service_status">Service</string>
-    <string name="hooked_count">Hooked</string>
-    <string name="settings_version">Post v2.2</string>
-    <string name="service_restarted">Service restarted</string>
-    <string name="service_restart_failed">Failed to restart service</string>
-    <string name="clearing_cache">Clearing cache...</string>
-    <string name="cache_cleared">Cache cleared (%1$d files removed)</string>
-    <string name="cache_clear_failed">Error clearing cache: %1$s</string>
-    <string name="config_exported">Config exported: %1$s</string>
-    <string name="config_export_failed">Failed to export config</string>
+    <string name="service_status">服务</string>
+    <string name="hooked_count">已 Hook</string>
+    <string name="settings_version">烛龙·魔改版 v2.2</string>
+    <string name="service_restarted">服务已重启</string>
+    <string name="service_restart_failed">重启服务失败</string>
+    <string name="clearing_cache">正在清除缓存...</string>
+    <string name="cache_cleared">缓存已清除 (移除了 %1$d 个文件)</string>
+    <string name="cache_clear_failed">清除缓存出错: %1$s</string>
+    <string name="config_exported">配置已导出: %1$s</string>
+    <string name="config_export_failed">导出配置失败</string>
 
     <!-- Settings status labels -->
-    <string name="settings_shizuku_sui_active">[OK] Sui Active (Root)</string>
-    <string name="settings_shizuku_authorized">[OK] Authorized (v%1$d)</string>
-    <string name="settings_shizuku_available_unauthorized">[!] Available - Not Authorized</string>
-    <string name="settings_shizuku_not_installed">[X] Not Installed</string>
-    <string name="settings_shizuku_not_running">[!] Installed - Not Running</string>
-    <string name="settings_shizuku_not_available">[X] Not Available</string>
-    <string name="settings_service_running">[OK] Running</string>
-    <string name="settings_service_stopped">[X] Stopped</string>
+    <string name="settings_shizuku_sui_active">[正常] Sui 已激活 (Root)</string>
+    <string name="settings_shizuku_authorized">[正常] 已授权 (v%1$d)</string>
+    <string name="settings_shizuku_available_unauthorized">[!] 可用 - 未授权</string>
+    <string name="settings_shizuku_not_installed">[X] 未安装</string>
+    <string name="settings_shizuku_not_running">[!] 已安装 - 未运行</string>
+    <string name="settings_shizuku_not_available">[X] 不可用</string>
+    <string name="settings_service_running">[正常] 运行中</string>
+    <string name="settings_service_stopped">[X] 已停止</string>
 
     <!-- Shizuku permission flow -->
-    <string name="shizuku_available">Available</string>
-    <string name="shizuku_unavailable">Unavailable</string>
-    <string name="shizuku_authorized">Authorized</string>
-    <string name="shizuku_unauthorized">Not Authorized</string>
-    <string name="shizuku_permission_required">Shizuku permission required for privileged operations</string>
-    <string name="shizuku_grant_toast">Please grant permission in Shizuku app</string>
+    <string name="shizuku_available">可用</string>
+    <string name="shizuku_unavailable">不可用</string>
+    <string name="shizuku_authorized">已授权</string>
+    <string name="shizuku_unauthorized">未授权</string>
+    <string name="shizuku_permission_required">特权操作需要 Shizuku 权限</string>
+    <string name="shizuku_grant_toast">请在 Shizuku 应用中授予权限</string>
 
     <!-- Generic -->
-    <string name="error">Error</string>
-    <string name="success">Success</string>
-    <string name="failed">Failed</string>
-    <string name="retry">Retry</string>
-    <string name="cancel">Cancel</string>
-    <string name="ok">OK</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="apply">Apply</string>
-    <string name="uninstall">Uninstall</string>
-    <string name="clear">Clear</string>
+    <string name="error">错误</string>
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="retry">重试</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="apply">应用</string>
+    <string name="uninstall">卸载</string>
+    <string name="clear">清除</string>
 
     <!-- Deprecated -->
-    <string name="filter_all" translatable="false">All</string>
-    <string name="filter_enabled" translatable="false">Enabled</string>
-    <string name="filter_disabled" translatable="false">Disabled</string>
+    <string name="filter_all" translatable="false">全部</string>
+    <string name="filter_enabled" translatable="false">已启用</string>
+    <string name="filter_disabled" translatable="false">已禁用</string>
 </resources>
